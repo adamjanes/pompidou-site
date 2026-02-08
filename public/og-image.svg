@@ -1,0 +1,83 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Accent Line Top -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accentGradient)"/>
+
+  <!-- Main Content Container -->
+  <g id="content">
+    <!-- Logo/Icon Circle -->
+    <circle cx="150" cy="150" r="80" fill="url(#accentGradient)" opacity="0.2"/>
+    <circle cx="150" cy="150" r="70" fill="none" stroke="url(#accentGradient)" stroke-width="2" opacity="0.6"/>
+
+    <!-- Geometric pattern inside circle -->
+    <path d="M 100 150 L 150 100 L 200 150 L 150 200 Z" fill="none" stroke="url(#accentGradient)" stroke-width="1.5" opacity="0.8"/>
+
+    <!-- Main Title -->
+    <text x="320" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="#f1f5f9" letter-spacing="-1">
+      Pompidou
+    </text>
+
+    <!-- Subtitle -->
+    <text x="320" y="175" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="500" fill="#cbd5e1">
+      Autonomous Dev System
+    </text>
+
+    <!-- Accent Line -->
+    <rect x="320" y="200" width="400" height="2" fill="url(#accentGradient)"/>
+
+    <!-- Description -->
+    <text x="320" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="400" fill="#cbd5e1">
+      130+ evaluated tools for building autonomous
+    </text>
+    <text x="320" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="400" fill="#cbd5e1">
+      AI development systems
+    </text>
+
+    <!-- Features Grid -->
+    <g id="features">
+      <!-- Spec It -->
+      <circle cx="100" cy="420" r="28" fill="url(#accentGradient)" opacity="0.2"/>
+      <text x="100" y="425" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#60a5fa" text-anchor="middle">1</text>
+      <text x="145" y="410" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#f1f5f9">Spec It</text>
+      <text x="145" y="433" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" fill="#cbd5e1">Define requirements</text>
+
+      <!-- Task It -->
+      <circle cx="380" cy="420" r="28" fill="url(#accentGradient)" opacity="0.2"/>
+      <text x="380" y="425" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#60a5fa" text-anchor="middle">2</text>
+      <text x="425" y="410" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#f1f5f9">Task It</text>
+      <text x="425" y="433" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" fill="#cbd5e1">Break down tasks</text>
+
+      <!-- Build It -->
+      <circle cx="660" cy="420" r="28" fill="url(#accentGradient)" opacity="0.2"/>
+      <text x="660" y="425" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#60a5fa" text-anchor="middle">3</text>
+      <text x="705" y="410" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#f1f5f9">Build It</text>
+      <text x="705" y="433" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" fill="#cbd5e1">Execute autonomously</text>
+
+      <!-- Verify It -->
+      <circle cx="940" cy="420" r="28" fill="url(#accentGradient)" opacity="0.2"/>
+      <text x="940" y="425" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#60a5fa" text-anchor="middle">4</text>
+      <text x="985" y="410" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#f1f5f9">Verify It</text>
+      <text x="985" y="433" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" fill="#cbd5e1">Validate quality</text>
+    </g>
+
+    <!-- Footer -->
+    <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="500" fill="#64748b" text-anchor="middle">
+      Build modern autonomous AI systems with battle-tested tools
+    </text>
+  </g>
+</svg>
