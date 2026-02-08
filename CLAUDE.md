@@ -79,6 +79,33 @@ This is a **project** (greenfield) — direct push OK:
 - **Fast:** Static generation, optimized for performance
 - **SEO:** Proper meta tags, OpenGraph, structured data
 
+## Development Workflow (Holy Grail)
+
+### Phase 1: Spec It (OpenSpec)
+- `/opsx:new` — Create feature proposal
+- `/opsx:continue` — Develop specs
+- `/opsx:apply` — Apply approved changes to codebase
+
+### Phase 2: Task It (Beads)
+- `bd add "task description"` — Break down into tasks
+- `bd list --unblocked` — See what's ready to work on
+- `bd start <task-id>` — Mark task as in-progress
+- `bd done <task-id>` — Mark task as complete
+
+### Phase 3: Build It (OMC)
+- `omc autopilot "feature description"` — Standard autonomous build (32 specialized agents, TDD, code review)
+- `omc ultrapilot "large feature"` — 3-5x parallel execution for complex features
+- `omc ecomode "small task"` — Token-efficient mode for simple changes
+- `omc ralph "implement X"` — Direct execution mode (skip planning overhead)
+- `omc swarm "research topic"` — Multi-agent research and exploration
+
+### Phase 4: Verify It
+- `npm run lint` — ESLint checks
+- `npm run build` — Production build validation
+
+### Phase 5: Learn It
+- `/harvest` — Capture learnings to knowledge/updates/
+
 ## Git Configuration
 
 **Account:** Personal (adamjanes/pompidou-site)
