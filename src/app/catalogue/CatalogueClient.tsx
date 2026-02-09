@@ -15,6 +15,8 @@ export default function CatalogueClient({ tools: initialTools }: CatalogueClient
   const [tools] = useState<Tool[]>(initialTools);
   const [isLoading] = useState(false);
 
+  console.log('[CatalogueClient] Received tools:', initialTools?.length || 0);
+
   // Parse filters from URL
   const filters = useMemo((): FilterState => {
     const phases = searchParams.get('phases')?.split(',').filter(Boolean) as Phase[] || [];

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: "Pompidou - Autonomous Dev System Catalogue",
     template: "%s | Pompidou"
   },
-  description: "A comprehensive catalogue of 80+ evaluated tools for building autonomous AI development systems. From specification to deployment, discover the tools that power modern AI-assisted development workflows.",
+  description: "A comprehensive catalogue of 130 evaluated tools for building autonomous AI development systems. From specification to deployment, discover the tools that power modern AI-assisted development workflows.",
   keywords: ["AI development", "autonomous systems", "developer tools", "AI agents", "DevOps", "automation", "Claude", "LLM tools"],
   authors: [{ name: "Pompidou Project" }],
   openGraph: {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://pompidou.dev",
     title: "Pompidou - Autonomous Dev System Catalogue",
-    description: "Comprehensive catalogue of 80+ tools for building autonomous AI development systems",
+    description: "Comprehensive catalogue of 130 tools for building autonomous AI development systems",
     siteName: "Pompidou",
     images: [
       {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pompidou - Autonomous Dev System Catalogue",
-    description: "80+ evaluated tools for building autonomous AI development systems",
+    description: "130 evaluated tools for building autonomous AI development systems",
     images: ["/og-image.png"],
   },
   robots: {

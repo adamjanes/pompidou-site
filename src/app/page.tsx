@@ -55,7 +55,7 @@ export default function Home() {
               <span className="block gradient-text">Autonomous AI Development</span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600 dark:text-gray-400">
-              A comprehensive catalogue of 80+ evaluated tools for building autonomous AI development systems.
+              A comprehensive catalogue of 130 evaluated tools for building autonomous AI development systems.
               From specification to deployment, discover the tools that power modern AI-assisted workflows.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -131,8 +131,132 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* Current Stack Section */}
       <section className="py-20 sm:py-24 bg-gray-50 dark:bg-gray-900">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+              Current Stack
+            </h2>
+            <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
+              Recommended tools organized by development phase
+            </p>
+          </div>
+
+          <div className="space-y-8">
+            {/* Phase 1: Spec It */}
+            <div className="bg-white dark:bg-gray-950 rounded-xl border border-gray-200 dark:border-gray-800 p-6 shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-2xl">📋</span>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Phase 1: Spec It</h3>
+              </div>
+              <div className="grid gap-4 md:grid-cols-2">
+                <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">OpenSpec</h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Brownfield specs — define what to build, surface blockers upfront</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Phase 2: Task It */}
+            <div className="bg-white dark:bg-gray-950 rounded-xl border border-gray-200 dark:border-gray-800 p-6 shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-2xl">🎯</span>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Phase 2: Task It</h3>
+              </div>
+              <div className="grid gap-4 md:grid-cols-2">
+                <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">Beads</h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Git-native task management with dependency tracking</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Phase 3: Build It */}
+            <div className="bg-white dark:bg-gray-950 rounded-xl border border-gray-200 dark:border-gray-800 p-6 shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-2xl">⚡</span>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Phase 3: Build It</h3>
+              </div>
+              <div className="grid gap-4 md:grid-cols-2">
+                <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">Oh-My-ClaudeCode</h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Thin wrapper for autopilot, ralph, and ultrapilot execution modes</p>
+                </div>
+                <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">Native Agent Teams</h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Multi-agent coordination (monitoring for model routing)</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Platform Infrastructure */}
+            <div className="bg-white dark:bg-gray-950 rounded-xl border border-gray-200 dark:border-gray-800 p-6 shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-2xl">🏗️</span>
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Platform Infrastructure</h3>
+              </div>
+              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">Claude Squad</h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Process management with git worktree isolation</p>
+                </div>
+                <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">claude-auto-resume</h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Automatic session resilience and recovery</p>
+                </div>
+                <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">runCLAUDErun</h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Nightly scheduling for autonomous development</p>
+                </div>
+                <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">OpenClaw</h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Blocker notifications via Telegram</p>
+                </div>
+                <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">tmux Sessions</h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Isolated, long-running development sessions</p>
+                </div>
+                <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-900 dark:text-white mb-1">Subagents</h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Native multi-agent task delegation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA */}
+          <div className="mt-12 bg-blue-50 dark:bg-blue-950/20 rounded-xl border border-blue-200 dark:border-blue-800 p-8 text-center">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
+              See something missing? Know a tool that should be here?
+            </h3>
+            <p className="text-gray-600 dark:text-gray-400 mb-4">
+              This catalogue is actively maintained. Share your recommendations or corrections.
+            </p>
+            <a
+              href="mailto:Adam.Michael.Janes@gmail.com?subject=Pompidou Tool Suggestion"
+              className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-blue-500 transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              Contact Adam
+            </a>
+          </div>
+
+          <div className="mt-8 text-center">
+            <Link
+              href="/stack"
+              className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+            >
+              View full stack details →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="py-20 sm:py-24 bg-white dark:bg-gray-950">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl mb-8">
@@ -148,7 +272,7 @@ export default function Home() {
                 Whether you're building your first AI-assisted workflow or scaling an enterprise autonomous development
                 platform, this catalogue provides the insights you need to make informed tool choices.
               </p>
-              <div className="bg-white dark:bg-gray-950 rounded-lg p-6 border border-gray-200 dark:border-gray-800 my-8">
+              <div className="bg-gray-50 dark:bg-gray-900 rounded-lg p-6 border border-gray-200 dark:border-gray-800 my-8">
                 <p className="text-base italic text-gray-600 dark:text-gray-400">
                   "The goal isn't to replace developers—it's to amplify their capabilities. With the right tools
                   orchestrated correctly, a single developer can ship with the velocity of an entire team."
